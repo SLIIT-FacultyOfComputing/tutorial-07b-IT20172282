@@ -6,6 +6,9 @@ class Item {
       float unitPrice;
       float discount; // out of 100 e.g. discount = 15
    public:
+      item();
+      item( int Code, float price);
+      ~item();
       // 1. Write the Default Constructor
       // 2. Write the Overloaded Constructor
       // 3. Write the Destructor
